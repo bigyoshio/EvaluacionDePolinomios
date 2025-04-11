@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1744254078 source:c:\users\alb3r\onedrive\documentos\programacion\evaluciondepolinomios\polinomios.cpp
+	<iostream>
+	<cmath>
+	"Polinomios.h"
+
+1744254078 c:\users\alb3r\onedrive\documentos\programacion\evaluciondepolinomios\polinomios.h
+
+1744254078 source:c:\users\alb3r\onedrive\documentos\programacion\evaluciondepolinomios\main.cpp
+	<iostream>
+	"Polinomios.h"
+	"Gestiones.h"
+
+1744254078 c:\users\alb3r\onedrive\documentos\programacion\evaluciondepolinomios\gestiones.h
+
+1744254111 source:c:\users\alb3r\onedrive\documentos\programacion\evaluciondepolinomios\gestiones.cpp
+	<iostream>
+	"Gestiones.h"
+
+1744254111 source:c:\users\alb3r\onedrive\documentos\programacion\evaluaciondepolinomios\gestiones.cpp
+	<iostream>
+	"Gestiones.h"
+
+1744254078 c:\users\alb3r\onedrive\documentos\programacion\evaluaciondepolinomios\gestiones.h
+
+1744254078 source:c:\users\alb3r\onedrive\documentos\programacion\evaluaciondepolinomios\main.cpp
+	<iostream>
+	"Polinomios.h"
+	"Gestiones.h"
+
+1744405416 c:\users\alb3r\onedrive\documentos\programacion\evaluaciondepolinomios\polinomios.h
+
+1744254078 source:c:\users\alb3r\onedrive\documentos\programacion\evaluaciondepolinomios\polinomios.cpp
+	<iostream>
+	<cmath>
+	"Polinomios.h"
+
