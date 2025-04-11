@@ -1,9 +1,9 @@
 ### Evaluación de Métodos para Evaluar Polinomios
 ## 📌 Descripción
--Este programa compara el rendimiento de dos métodos para evaluar polinomios:
--Método Estándar: Evalúa cada término por separado usando pow().
--Esquema de Horner: Usa un método más eficiente de evaluación anidada.
--Genera un archivo CSV con los tiempos de ejecución para polinomios de grados 10 a 1000.
+Este programa compara el rendimiento de dos métodos para evaluar polinomios:
+Método Estándar: Evalúa cada término por separado usando pow().
+Esquema de Horner: Usa un método más eficiente de evaluación anidada.
+Genera un archivo CSV con los tiempos de ejecución para polinomios de grados 10 a 1000.
 
 🛠 Requisitos
 Compilador C++11 o superior (g++, clang, MSVC)
