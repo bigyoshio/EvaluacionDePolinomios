@@ -39,6 +39,7 @@ grado,tiempo_estandar(us),tiempo_horner(us)
 20,8.75,4.30
 ...
 ```
+![Ejemplo de Grafica de Resultados](https://github.com/bigyoshio/EvaluacionDePolinomios/blob/main/Captura%20de%20pantalla%202025-04-11%20143729.png)
 
 ## 📂 Estructura del Proyecto
 .
