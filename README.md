@@ -43,6 +43,7 @@ grado,tiempo_estandar(us),tiempo_horner(us)
 
 ## 📂 Estructura del Proyecto
 ```
+/
 ├── Gestiones.h       # Declaración de funciones
 ├── Gestiones.cpp     # Implementación de los métodos
 ├── main.cpp          # Programa principal
