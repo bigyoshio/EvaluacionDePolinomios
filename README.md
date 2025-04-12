@@ -42,11 +42,12 @@ grado,tiempo_estandar(us),tiempo_horner(us)
 ![Ejemplo de Grafica de Resultados](https://github.com/bigyoshio/EvaluacionDePolinomios/blob/main/Captura%20de%20pantalla%202025-04-11%20143729.png)
 
 ## 📂 Estructura del Proyecto
-.
+```
 ├── Gestiones.h       # Declaración de funciones
 ├── Gestiones.cpp     # Implementación de los métodos
 ├── main.cpp          # Programa principal
 └── resultados.csv    # Resultados generados (se crea al ejecutar)
+```
 
 ## 📝 Funciones Clave
 ```
