@@ -1,6 +1,9 @@
 #ifndef GESTIONES_HPP
 #define GESTIONES_HPP
 
+#include <iostream>
+#include <vector>
+using std::vector;
 /**
  * @brief Evalúa un polinomio usando el método estándar
  * @param coef Vector de coeficientes del polinomio (de mayor a menor grado)
@@ -8,7 +11,7 @@
  * @return Resultado de evaluar el polinomio en x
  * @note Complejidad: O(n) donde n es el grado del polinomio
  */
-double evaluarEstandar(const std::vector<int>& coef, double x);
+double evaluarEstandar(const vector<int>& coef, double x);
 
 /**
  * @brief Evalúa un polinomio usando el método de Horner (más eficiente)
@@ -18,7 +21,7 @@ double evaluarEstandar(const std::vector<int>& coef, double x);
  * @note Complejidad: O(n) donde n es el grado del polinomio
  * @note Más eficiente que el método estándar por tener menos operaciones
  */
-double evaluarHorner(const std::vector<int>& coef, double x);
+double evaluarHorner(const vector<int>& coef, double x);
 
 /**
  * @brief Genera coeficientes aleatorios para un polinomio
@@ -26,7 +29,7 @@ double evaluarHorner(const std::vector<int>& coef, double x);
  * @return Vector de coeficientes generados aleatoriamente (de mayor a menor grado)
  * @note Los coeficientes son enteros en el rango [-10, 10]
  */
-std::vector<int> generarCoeficientes(int grado);
+vector<int> generarCoeficientes(int grado);
 
 /**
  * @brief Genera un valor aleatorio para evaluar el polinomio
@@ -35,4 +38,4 @@ std::vector<int> generarCoeficientes(int grado);
  */
 double generarX();
 
-#endif
+#endif //GESTIONES_HPP
