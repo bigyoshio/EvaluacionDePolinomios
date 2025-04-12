@@ -6,9 +6,9 @@ Esquema de Horner: Usa un método más eficiente de evaluación anidada.
 Genera un archivo CSV con los tiempos de ejecución para polinomios de grados 10 a 1000.
 
 🛠 Requisitos
-Compilador C++11 o superior (g++, clang, MSVC)
+- Compilador C++11 o superior (g++, clang, MSVC)
 
-Sistema operativo: Windows, Linux o macOS
+- Sistema operativo: Windows, Linux o macOS
 
 ## 📦 Instalación
 Clona el repositorio o descarga los archivos:
@@ -18,12 +18,12 @@ git clone https://github.com/tu-usuario/evaluacion-polinomios.git
 cd evaluacion-polinomios
 ```
 
-Compila el programa:
+- Compila el programa:
 ```bash
 g++ -std=c++11 main.cpp Gestiones.cpp -o evaluacion
 ```
 ## 🚀 Uso
-Ejecuta el programa:
+- Ejecuta el programa:
 
 ```bash
 ./evaluacion
@@ -31,7 +31,7 @@ Ejecuta el programa:
 El programa generará un archivo resultados.csv con los tiempos de ejecución en microsegundos (μs).
 
 ## 📊 Estructura del CSV
-El archivo de resultados contiene:
+- El archivo de resultados contiene:
 
 ```csv
 grado,tiempo_estandar(us),tiempo_horner(us)
@@ -61,9 +61,9 @@ generarX(): Genera un valor aleatorio para evaluar los polinomios.
 ## 📈 Análisis de Resultados
 Puedes visualizar los resultados con herramientas como:
 
--Excel/Google Sheets
--Python con pandas/matplotlib
--R
+- Excel/Google Sheets
+- Python con pandas/matplotlib
+- R
 
 Ejemplo básico con Python:
 
