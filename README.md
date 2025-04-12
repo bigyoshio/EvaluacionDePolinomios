@@ -5,7 +5,7 @@ Método Estándar: Evalúa cada término por separado usando pow().
 Esquema de Horner: Usa un método más eficiente de evaluación anidada.
 Genera un archivo CSV con los tiempos de ejecución para polinomios de grados 10 a 1000.
 
-🛠 Requisitos
+## 🛠 Requisitos
 - Compilador C++11 o superior (g++, clang, MSVC)
 
 - Sistema operativo: Windows, Linux o macOS
