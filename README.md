@@ -16,8 +16,9 @@ Clona el repositorio o descarga los archivos:
 ```bash
 git clone https://github.com/tu-usuario/evaluacion-polinomios.git
 cd evaluacion-polinomios
-Compila el programa:
 ```
+
+Compila el programa:
 ```bash
 g++ -std=c++11 main.cpp Gestiones.cpp -o evaluacion
 ```
@@ -26,12 +27,11 @@ Ejecuta el programa:
 
 ```bash
 ./evaluacion
-El programa generará un archivo resultados.csv con los tiempos de ejecución en microsegundos (μs).
 ```
+El programa generará un archivo resultados.csv con los tiempos de ejecución en microsegundos (μs).
 
 ## 📊 Estructura del CSV
 El archivo de resultados contiene:
-
 
 ```csv
 grado,tiempo_estandar(us),tiempo_horner(us)
